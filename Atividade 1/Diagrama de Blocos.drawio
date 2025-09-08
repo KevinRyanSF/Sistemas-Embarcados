@@ -1,0 +1,86 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.2.0">
+  <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
+    <mxGraphModel dx="1979" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="3a17f1ce550125da-1" value="Monitoramento de temperatura e umidade" style="whiteSpace=wrap;html=1;shadow=1;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="785" y="80" width="183" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="3a17f1ce550125da-2" target="qL-fAgGZSHP51q2dSLKx-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-4" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;GPIO1 - GPIO11&amp;nbsp;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qL-fAgGZSHP51q2dSLKx-2" connectable="0" vertex="1">
+          <mxGeometry x="0.0517" y="1" relative="1" as="geometry">
+            <mxPoint x="-4" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3a17f1ce550125da-2" target="qL-fAgGZSHP51q2dSLKx-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-7" value="GPIO 15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qL-fAgGZSHP51q2dSLKx-9">
+          <mxGeometry x="0.0115" y="3" relative="1" as="geometry">
+            <mxPoint x="40" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3a17f1ce550125da-2" value="Microcontrolador&lt;div&gt;[ESP32]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="841.5" y="381" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="3a17f1ce550125da-20" style="edgeStyle=elbowEdgeStyle;rounded=0;html=1;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;fontSize=18;elbow=vertical;entryX=0.006;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.983;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3a17f1ce550125da-8" target="3a17f1ce550125da-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="768.5" y="424" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-3" value="GPIO 12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="3a17f1ce550125da-20" connectable="0" vertex="1">
+          <mxGeometry x="0.0685" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3a17f1ce550125da-8" value="Sensor de Temperatura&lt;div&gt;[TMP36]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="608.5" y="354" width="120" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-1" value="Display de 7 segmentos de 3 dígitos&lt;div&gt;[5631AS]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1171.5" y="381" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qL-fAgGZSHP51q2dSLKx-5" target="3a17f1ce550125da-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-7" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;GPIO 13 - 14&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qL-fAgGZSHP51q2dSLKx-6" connectable="0" vertex="1">
+          <mxGeometry x="0.2055" y="1" relative="1" as="geometry">
+            <mxPoint x="54" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-5" value="Botões para limite de temperatura&lt;div&gt;[TEMP +1 / -1]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="841.5" y="200" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-8" value="Buzzer&lt;div&gt;[Ativo]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1051.5" y="530" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q4dB8ZygXTarwghqD8ag-1" target="q4dB8ZygXTarwghqD8ag-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;12V&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4dB8ZygXTarwghqD8ag-3">
+          <mxGeometry x="-0.1885" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-1" value="LiFePO4 4S" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="530" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q4dB8ZygXTarwghqD8ag-2" target="3a17f1ce550125da-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-6" value="5V - VIN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q4dB8ZygXTarwghqD8ag-5">
+          <mxGeometry x="0.2373" y="-1" relative="1" as="geometry">
+            <mxPoint x="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q4dB8ZygXTarwghqD8ag-2" value="Conversor de Tensão&lt;div&gt;[LM2596]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="641.5" y="530" width="170" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
