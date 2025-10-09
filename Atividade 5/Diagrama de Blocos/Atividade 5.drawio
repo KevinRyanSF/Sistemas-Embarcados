@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 OPR/121.0.0.0" version="28.2.5">
+  <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
+    <mxGraphModel dx="1628" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="3a17f1ce550125da-1" value="Atividade 5:&lt;div&gt;Contador com incremento variável&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="778.5" y="40" width="183" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endSize=7;startSize=7;strokeWidth=2;" parent="1" source="3a17f1ce550125da-2" target="qL-fAgGZSHP51q2dSLKx-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-4" value="&lt;div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Acionamento dos Leds&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(GPIO 35-38)&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="qL-fAgGZSHP51q2dSLKx-2" connectable="0" vertex="1">
+          <mxGeometry x="0.0517" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3a17f1ce550125da-2" value="Microcontrolador&lt;div&gt;[ESP32-S3]&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="785" y="420" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="qL-fAgGZSHP51q2dSLKx-1" value="&lt;div&gt;Leds 1 ao 4&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="420" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startSize=8;endSize=8;strokeWidth=2;" edge="1" parent="1" source="fxdjwgKW1XkP6-7EnZkj-1" target="3a17f1ce550125da-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="828" y="310" />
+              <mxPoint x="827" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;D+/D- (GPIO 19-20)&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="fxdjwgKW1XkP6-7EnZkj-5">
+          <mxGeometry x="-0.2421" y="-4" relative="1" as="geometry">
+            <mxPoint x="-63" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endSize=7;startSize=7;" edge="1" parent="1" source="fxdjwgKW1XkP6-7EnZkj-1" target="3a17f1ce550125da-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="912" y="330" />
+              <mxPoint x="912" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Alimentação (5V)&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" connectable="0" parent="fxdjwgKW1XkP6-7EnZkj-7">
+          <mxGeometry x="-0.3387" relative="1" as="geometry">
+            <mxPoint x="60" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-1" value="Entrada USB" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="785" y="200" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;startSize=7;endArrow=classic;endSize=7;" edge="1" parent="1" source="fxdjwgKW1XkP6-7EnZkj-20" target="3a17f1ce550125da-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Incrementar Contador&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;(GPIO 6)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="fxdjwgKW1XkP6-7EnZkj-21">
+          <mxGeometry x="-0.0728" y="1" relative="1" as="geometry">
+            <mxPoint x="67" y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-20" value="&lt;div&gt;Botão A&lt;/div&gt;&lt;div&gt;(Push button)&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="324" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;startSize=7;endArrow=classic;endSize=7;" edge="1" parent="1" source="fxdjwgKW1XkP6-7EnZkj-23" target="3a17f1ce550125da-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Alternar incremento entre +1 e +2&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;(GPIO 7)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;fillColor=none;gradientColor=none;" vertex="1" connectable="0" parent="fxdjwgKW1XkP6-7EnZkj-24">
+          <mxGeometry x="-0.0685" y="1" relative="1" as="geometry">
+            <mxPoint x="56" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fxdjwgKW1XkP6-7EnZkj-23" value="&lt;div&gt;Botão B&lt;/div&gt;&lt;div&gt;(Push button)&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="340" y="516" width="170" height="96" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
